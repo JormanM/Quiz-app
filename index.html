@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" type="module" defer></script> 
+    <!-- we use defer to execute the script after rendering the page -->
+</head>
+<body>
+    <div class="quiz-container">
+        <h2 class="question" id="my-question">question</h2>
+        <ul class="options">
+            <li>
+                <input type="radio" id="a" name="option">
+                <label for="a" id="a-text">option</label>
+            </li>
+            <li>
+                <input type="radio" id="b" name="option">
+                <label for="b" id="b-text">option</label>
+            </li>
+            <li>
+                <input type="radio" id="c" name="option">
+                <label for="c" id="c-text">option</label>
+            </li>
+            <li>
+                <input type="radio" id="d" name="option">
+                <label for="d" id="d-text">option</label>
+            </li>
+        </ul>
+        <h3 class="alerta"></h3>
+        <button class="submit" id="submit-button">Submit</button>
+    </div>
+    
+</body>
+</html>
+
+
+
